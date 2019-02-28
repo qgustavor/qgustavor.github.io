@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/qgustavor
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://qgustavor.github.io
+  * I am qgustavor (https://keybase.io/qgustavor) on keybase.
+  * I have a public key with fingerprint 160B C154 EB83 5563 A041  4C14 EF30 547D C9D2 9AAB
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010164b777a5b7ca5308ee4f6508643a3af37625fc2c8cacd8911836d60b1faaa2d40a",
+      "fingerprint": "160bc154eb835563a0414c14ef30547dc9d29aab",
+      "host": "keybase.io",
+      "key_id": "ef30547dc9d29aab",
+      "kid": "010164b777a5b7ca5308ee4f6508643a3af37625fc2c8cacd8911836d60b1faaa2d40a",
+      "uid": "eedf25cdb9cdccc1235daa9c578dbd19",
+      "username": "qgustavor"
+    },
+    "service": {
+      "hostname": "qgustavor.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1551387366,
+  "expire_in": 157680000,
+  "prev": "0d89a3fd5ca3f1154721456b93a53cfb6bf300a2554a1f11b27ce64df88d6e09",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUltsDUEYPqeuJQ2JNDR46KYSpZqd3Z3ZPSepVhAq4cFdND3mtucs7e7p7p7T
+NpS+oBWkIhHRePHkkogqogQhUUo0VcQlLkVCmorjEiVCmC1exKN5mMn8833f//3/
+/C05w0JZ4Yy8vKGr98Cx8M1+EqqoW5TZKBGH1UvRjdIGPnTwKsY9P7bBYlJUkoEM
+kEZ0XceQ6BRDVTY410wEZQNpKlaxqepIgSZVqEExZUYEAENFDMkEmBhjhWkylook
+07Lj3E26lu0LWSCeKYAaJ4YKIVKxrAGNAo2bqgw1ndEIUyIYE0FMOF7AEOYI9nix
+5YiYuMSG7P0D/599p37l4cxUIGUkQhmlFCgqZBhHKNQNRhiIBECPuzau5gJdE095
+Pk47rtRQJIlw2qI86GxQyt+Q4rjlJ1LkV11J1/Ed6lQJQML3k140EPDrkwGjlpPY
+b60YsWwm+ikYae56lmNLUSCQ1LcCcQAhUA1dRahI4nVJy+UxK0BAHRmyWEEenpai
+WJJF2Vg1GaRiB+I/dAVoEJGIKhpGTYKI6K+MFQg1DASAKDrlSGOmYTDE5aBsj9fY
+jhBXhFEcFz49K25jP+VyqWFMc3jK8FA4KzRyRFYwaqEx2eP/zF+6enSocbjSEc6J
+tk7Z3VafrTVX1w6UpfL2t3aWX1yz8nriS0XLrVWrHzQp1wpPXG8pWfOtJHpl+tSH
+fX0l6wrP9TzbC77smT/+8Y7cBzszk1KHWgfntUVWnPr0qah0+9GPE9/M3D7q6232
+rvzp/i1n59ZvnXXshn07ff7t3c0cTbhbcfp+bnLO4sSPS72P8tKHd41tWrgN7Vvf
+1Ti5tvPlqyPHXxREN90zx80IxVq6L7aXPneyBw7OzukPvU5krVo2KTM4Lb9/2JyT
+2U+WLnz0tGPHrcujFry3UE5lR3vzZ++d3V1wQl/ckCn7cOfqjGVLWOfzsvaC/AvN
+BW5lcc+ZrsLSxqa163rbmr6Tnw==
+=A5Wa
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/qgustavor
+
+==================================================================
