@@ -41,15 +41,15 @@ DefaultContentLanguage = "pt"          # Default language for multilingual sites
   # https://www.joelnitta.com/posts/2021-11-24_using-giscus/
   # and https://github.com/giscus/giscus
   [params.giscus]
-    # repo = "github-user/github-repo" # Entering repo will enable giscus
-    repo-id = "qgustavor/qgustavor.github.io"
+    repo = "qgustavor/qgustavor.github.io" # Entering repo will enable giscus
+    repo-id = "MDEwOlJlcG9zaXRvcnk3NzA3OTcyNA=="
     category = "Comments"
-    category-id = "52155098"
+    category-id = "DIC_kwDOBJgkrM4DG9La"
     mapping = "pathname"
     reactions-enabled = "1"
     emit-metadata = "0"
     theme = "preferred_color_scheme"
-    lang = "en"
+    lang = "pt"
 
   # Social icons appear in introduction and contact section. Add as many more as you like.
   # Icon pack "fab" includes social network icons, see: https://fontawesome.com/search?ic=free-collection&ip=brands
