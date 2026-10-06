@@ -1,0 +1,35 @@
+.br-mastodon {
+  color: limegreen;
+}
+
+@supports (-webkit-background-clip: text) or (background-clip: text) {
+  .br-mastodon {
+    background-size: 100% 100%;
+    background-position: 0 0;
+    background-image: repeating-linear-gradient(135deg, #00FF13 0%, #00FF13 10%, #F2FF00 10%, #F2FF00 20%, #00FF13 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 2px 0;
+  }
+  .br-mastodon:hover, .br-mastodon:focus {
+    animation: br-mastodon-hover 1s linear infinite;
+    background-size: 200% 200%;
+  }
+}
+
+@keyframes br-mastodon-hover {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 0; }
+}
+
+.hero.is-fullheight {
+  background: #aaa url(/images/hero_bg.jpg) 50%/cover;
+  background-blend-mode: screen;
+}
+@media (prefers-color-scheme: dark) {
+  .hero.is-fullheight {
+    background: #808080 url(/images/hero_bg.jpg) 50%/cover;
+    background-blend-mode: multiply;
+  }
+}

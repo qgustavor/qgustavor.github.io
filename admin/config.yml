@@ -1,0 +1,83 @@
+backend:
+  name: github
+  repo: qgustavor/qgustavor.github.io
+
+i18n:
+  structure: multiple_files
+  locales:
+    - pt
+    - en
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: blog
+    label: Blog
+    i18n: true
+    folder: content/blog
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    create: true
+    fields:
+      - name: title
+        label: Title
+        i18n: true
+      - name: date
+        label: Date
+        widget: datetime
+        i18n: duplicate
+      - name: description
+        label: Description
+        required: false
+        i18n: true
+      # - name: tags
+      #   label: Tags
+      #   widget: list
+      #   required: false
+      #   i18n: true
+      - name: body
+        label: Body
+        widget: markdown
+        i18n: true
+  - name: home
+    label: Home
+    i18n: true
+    folder: content/home
+    media_folder: ''
+    public_folder: ''
+    create: true
+    fields:
+      - name: title
+        label: Title
+        i18n: true
+      - name: body
+        label: Body
+        widget: markdown
+        i18n: true
+  - name: projects
+    label: Projects
+    i18n: true
+    folder: content/projects
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    create: true
+    fields:
+      - name: title
+        label: Title
+        i18n: true
+      - name: description
+        label: Description
+        required: false
+        i18n: true
+      - name: weight
+        label: Weight
+        widget: number
+        required: true
+        i18n: duplicate
+      - name: body
+        label: Body
+        widget: markdown
+        i18n: true
