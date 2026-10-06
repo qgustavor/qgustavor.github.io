@@ -1,4 +1,4 @@
-# From https://github.com/step-security/actions-hugo
+# Based on https://github.com/step-security/actions-hugo
 name: GitHub Pages
 
 on:
@@ -21,14 +21,21 @@ jobs:
       - name: Setup Hugo
         uses: step-security/actions-hugo@v3
         with:
-          hugo-version: '0.167.0'
+          hugo-version: 'latest'
           extended: true
+          
+      - name: Set up Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 26
+      - name: Install NPM dependencies
+        run: npm ci
 
       - name: Build
         run: hugo --minify
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
