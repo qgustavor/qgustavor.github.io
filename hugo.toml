@@ -82,9 +82,9 @@ DefaultContentLanguage = "pt"          # Default language for multilingual sites
 
 # We only use tag as a taxonomies
 # You can add more by yourself
-[taxonomies]
-  tag = "tags"
-  series = "series"
+# [taxonomies]
+#   tag = "tags"
+#   series = "series"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
