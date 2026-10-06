@@ -30,10 +30,8 @@ jobs:
           node-version: 26
       - name: Install NPM dependencies
         run: npm ci
-
       - name: Build
         run: hugo --minify
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
